@@ -1,0 +1,21 @@
+{
+  "name": "sharedStoreAndLambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gerardohdzg/sharedStoreAndLambda.git",
+  "author": "gerardohdzg <gerardo.hernandez@envato.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@wdio/cli": "^7.20.5",
+    "@wdio/shared-store-service": "^7.20.5",
+    "wdio-lambdatest-service": "^1.0.8"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.20.5",
+    "@wdio/mocha-framework": "^7.20.3",
+    "@wdio/spec-reporter": "^7.20.3",
+    "chromedriver": "^103.0.0",
+    "wdio-chromedriver-service": "^7.3.2",
+    "wdio-wait-for": "^2.2.6"
+  }
+}
